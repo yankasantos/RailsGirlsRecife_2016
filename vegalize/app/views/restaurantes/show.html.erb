@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @restaurante.nome %>
+</p>
+
+<p>
+  <strong>Endereco:</strong>
+  <%= @restaurante.endereco %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @restaurante.telefone %>
+</p>
+
+<p>
+  <strong>Pagamento:</strong>
+  <%= @restaurante.pagamento %>
+</p>
+
+<h3>Comentários:</h3>
+<% @restaurante.comentarios.each do |comentario| %>
+  <div>
+    <strong><%= comentario.usuario %></strong>
+    <br />
+    <p><%= comentario.mensagem %><p>
+  </div>
+<% end %>
+<%= render 'comentarios/form' %>
+
+<%= link_to 'Edit', edit_restaurante_path(@restaurante) %> |
+<%= link_to 'Back', restaurantes_path %>

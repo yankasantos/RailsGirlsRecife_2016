@@ -1,0 +1,84 @@
+html,body{
+    margin:0rem;
+}
+.top-page{
+    z-index: 3;
+    position: relative;
+    background-color: #242424;
+    height: 5rem;
+    opacity: 0.65;
+}
+.logo-pic{
+    position: absolute;
+    width: 7rem;
+    left: 3rem;
+    top: 0.5rem;
+}
+.area-localizacao{
+    position: absolute;
+    top: 1.5rem;
+}
+.box-label{
+    position: relative;
+    left: 25rem;
+}
+#estado{
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    padding-left: .75rem;
+}
+
+#cidade{
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    padding-left: .75rem;
+}
+.destaque{
+    position: relative;
+    bottom: 5rem;
+    z-index: 2;
+}
+.btn-busca{
+    position: relative;
+    left: 25rem;
+    height: 2rem;
+    border-radius: 0.45rem;
+    width: 6rem;
+    background-color: #FF160D;
+    border: none;
+    color:#fff
+}
+.btn-busca:hover{
+    /*background-color: #F91E0F;*/
+    background-color: red;
+    opacity: 0.85;
+}
+.lupa{
+    position: relative;
+    right: 0.5rem;
+    color: #fff;
+}
+.title-sobre-page{
+    position: relative;
+    z-index: 3;
+    bottom: 41rem;
+    left: 25rem;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.text-destaque{
+    position: relative;
+    z-index: 4;
+    bottom: 40rem;
+    left: 5rem;
+    font-size: 2rem;
+    font-family: helvetica;
+}
+.rodappe{
+    position: relative;
+    height: 14rem;
+    background-color: #000;
+    bottom: 20rem;
+}
